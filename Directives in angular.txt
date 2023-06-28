@@ -1,0 +1,22 @@
+directives :
+
+That allows to you to extend HTML with custom behaviours and functionality .its prodivides the DOM ( Document Object Model )andd uses the behavoirs to elements.
+ 
+1.reusabitiy:
+2.DOM manipulation--its can add ,remove,modify elemets attributes
+3.custom behavior--user interactions ,validate input ,conrol visibitly.
+4.encapsulation:
+5.integration with third-party libraries--b\w angular and other from app..
+6.attribute directies ---it change the behavoir and custom attributes.
+7.structural directives--- ng if,ng for,ng switch case
+8.extensibity --- its meet specific requirement or solve unquie problems.
+
+app.component.html :-  <h1 * ngif ="show " > this is heading </h1>
+app.component.ts-- export class AppComponent {
+
+                    show= false or true.
+                 }.
+
+[ngClass]--add or removes on css.
+[ngStyle]--add the HTML style.
+[ngModel]--two way data binding.
